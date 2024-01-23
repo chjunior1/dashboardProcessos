@@ -6,7 +6,7 @@ export async function apiRoutes(app: FastifyInstance) {
         return "Cheguei aqui !!!!"
     });
 
-    app.get("/json", (request) => {
+    app.get("/json",  (request) => {
         return Json
     });
 }
